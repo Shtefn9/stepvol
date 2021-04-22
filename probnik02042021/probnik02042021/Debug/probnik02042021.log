@@ -1,0 +1,22 @@
+﻿Build started 22.04.2021 10:11:35.
+     1>Project "D:\users\leg\vc\probnik02042021\probnik02042021\probnik02042021.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\probnik02042021.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\users\leg\vc\probnik02042021\probnik02042021\main.cpp(21): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\users\leg\vc\probnik02042021\Debug\probnik02042021.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\probnik02042021.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\users\leg\vc\probnik02042021\Debug\probnik02042021.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\users\leg\vc\probnik02042021\Debug\probnik02042021.lib" /MACHINE:X86 Debug\main.obj
+         LINK : D:\users\leg\vc\probnik02042021\Debug\probnik02042021.exe not found or not built by the last incremental link; performing full link
+         probnik02042021.vcxproj -> D:\users\leg\vc\probnik02042021\Debug\probnik02042021.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\users\leg\vc\probnik02042021\Debug\probnik02042021.exe;#1" /manifest Debug\probnik02042021.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\probnik02042021.unsuccessfulbuild".
+         Touching "Debug\probnik02042021.lastbuildstate".
+     1>Done Building Project "D:\users\leg\vc\probnik02042021\probnik02042021\probnik02042021.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.26

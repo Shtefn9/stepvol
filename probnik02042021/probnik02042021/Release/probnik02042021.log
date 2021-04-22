@@ -1,0 +1,25 @@
+﻿Build started 16.04.2021 19:12:54.
+     1>Project "D:\users\leg\vc\probnik02042021\probnik02042021\probnik02042021.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\users\leg\vc\probnik02042021\Release\".
+       InitializeBuildStatus:
+         Creating "Release\probnik02042021.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(6): warning C4101: 'rez21' : unreferenced local variable
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\users\leg\vc\probnik02042021\Release\probnik02042021.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\probnik02042021.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\users\leg\vc\probnik02042021\Release\probnik02042021.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\users\leg\vc\probnik02042021\Release\probnik02042021.lib" /MACHINE:X86 Release\main.obj
+         Generating code
+         Finished generating code
+         probnik02042021.vcxproj -> D:\users\leg\vc\probnik02042021\Release\probnik02042021.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\users\leg\vc\probnik02042021\Release\probnik02042021.exe;#1" /manifest Release\probnik02042021.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\probnik02042021.unsuccessfulbuild".
+         Touching "Release\probnik02042021.lastbuildstate".
+     1>Done Building Project "D:\users\leg\vc\probnik02042021\probnik02042021\probnik02042021.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.28
